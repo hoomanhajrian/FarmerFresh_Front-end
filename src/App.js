@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Header from './views/Header'
 import About from './views/About'
 import Features from './views/Features'
