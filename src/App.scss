@@ -3,11 +3,18 @@ body{
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 img{
-  // width: 100%;
-  // height: auto;
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: 'SafiarSignature';
+  src: local('SafiarSignature'), url(./fonts/SafiarSignature.ttf) format('truetype');
 }
 
 
@@ -92,9 +99,15 @@ justify-content: space-around;
   margin-left: 60%;
   display: flex;
   justify-content: flex-end;  
-  font-size: 32px;
   margin-bottom: 2rem;
   
+}
+
+.About_Title h2{
+  font-size: 60px;
+  font-weight: 300;
+  font-family: SafiarSignature;
+  margin: 0;
 }
 
 .lineDiv_horizontal{
@@ -136,7 +149,9 @@ justify-content: space-around;
 }
 
 // Features Settings
-.Features{
+.Features_features_block img{
+  max-width: 400px;
+  // min-width: 100px
 }
 
 .Features_Title{
@@ -144,9 +159,15 @@ justify-content: space-around;
   margin-left: 60%;
   display: flex;
   justify-content: flex-end;  
-  font-size: 32px;
   margin-bottom: 2rem;
   
+}
+
+.Features_Title h2{
+  font-size: 60px;
+  font-weight: 300;
+  font-family: SafiarSignature;
+  margin: 0;
 }
 
 .Features_features{
@@ -184,25 +205,390 @@ justify-content: space-around;
   margin-top: 4rem;
 }
 
-// Video Settings
+// Team Settings
 
-.Video{
-  background-color: cornflowerblue;
+.Team_Title{ 
+  margin-left: 60%;
+  display: flex;
+  justify-content: flex-end;  
+  margin-bottom: 2rem;
 }
 
-.Stories{
-  background-color: purple;
+.Team_Title h2{
+  font-size: 60px;
+  font-weight: 300;
+  font-family: SafiarSignature;
+  margin: 0;
 }
 
 .Team{
-  background-color: orchid;
+ margin-left: 3rem;
+ margin-right: 3rem;
 }
+
+.upperTeam{
+  display: flex;
+  justify-content: center;
+}
+
+.bottomTeam{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.Team_Member_Container{
+  padding: 3rem;
+}
+
+.Team_Name h2{
+  color: #29600B;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Team_Position h3{
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.Team_Social_Media i{
+margin-right: 0.2rem;
+}
+
+.Team_Profile_Pic{
+  max-width: 250px;
+}
+
+
+
+// Video Settings
+
+.Video{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Video_Title{
+  margin-left: 60%;
+  display: flex;
+  justify-content: flex-end;  
+  margin-bottom: 2rem;
+}
+
+.Video_Title h2{
+   font-size: 60px;
+  font-weight: 300;
+  font-family: SafiarSignature;
+  margin: 0;
+}
+
+.Video_Content h2{
+    color: #29600B;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Video_Content {
+  margin-right: 100px;
+}
+
+.Video_Content button{
+  background-color: #29600B;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  font-family: Poppins;
+}
+
+// Contact Us Settings
 
 .Contacts{
-  background-color: goldenrod;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
-.Footer{
-  background-color: blue;
+.Contacts_Title{
+ margin-left: 60%;
+  display: flex;
+  justify-content: flex-end;  
+  margin-bottom: 2rem;
+  margin-top: 3rem;
 }
+
+.Contacts_Title h2{
+font-size: 60px;
+  font-weight: 300;
+  font-family: SafiarSignature;
+  margin: 0;
+}
+
+// Stories settings
+
+.Stories_Title{
+   margin-left: 60%;
+  display: flex;
+  justify-content: flex-end;  
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.Stories_Title h2{
+  font-size: 60px;
+  font-weight: 300;
+  font-family: SafiarSignature;
+  margin: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  // padding: 30%;
+  // position: relative;
+  // margin: auto;
+}
+
+.mySlides {
+  padding-left: 30%;
+  padding-right: 30%;
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CaptionText, .CaptionFarmer{
+  width: 500px;
+
+
+}
+
+.CaptionText{
+  margin-top: 1rem;
+}
+
+.quoteDiv p{
+  text-align: center;
+  font-size: 150px;
+  font-family: Poppins;
+  color: #29600B;
+  margin: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.textAlignCenter{
+  text-align: center;
+}
+
+.mySlides img{
+  max-width: 500px;
+}
+
+// Footer Settings
+
+
+
+.Footer{
+  background-color: black;
+  margin-top: 3rem;
+}
+
+.Footer_wrapper{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
+  color: white;
+  justify-content: space-between; 
+  padding: 3rem;
+  align-items: center;
+}
+
+.Footer_logo img{
+  width: 280px;
+  
+}
+.Footer_menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Footer_menu_menu{ 
+display: flex;
+    
+}
+
+.Footer_menu_menu div{
+  margin-right: 1rem;
+}
+
+.Footer_menu_menu a{
+  color: white;
+}
+
+.Footer_description p{
+  font-size: 10px;
+  font-weight: light;
+}
+
+.Footer_social p{
+  margin: 0;
+}
+
+.Footer_social_menu{
+  display: flex;
+  justify-content: space-between;
+  }
+
+
+  // MEDIA QUERIES FOR MOBILE
+  @media only screen and (max-width: 900px) {
+  body {
+    // background-color: lightblue;
+  }
+
+  .ClearClass{
+    clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  }
+
+  .site-header-text img{
+  width: 40%;
+}
+.About_Title h2, .Features_Title h2, .Team_Title h2, .Video_Title h2, .Contacts_Title h2, .Stories_Title h2{
+  font-size: 40px;
+
+}
+
+.About_Title, .Features_Title, .Team_Title, .Video_Title, .Contacts_Title, .Stories_Title{
+    margin-left: 30%;
+  }
+
+  .About_features{
+  flex-direction: column;
+}
+
+.Features_features{
+   flex-direction: column;
+}
+.upperTeam{
+  flex-direction: column;
+}
+
+.bottomTeam{
+  flex-direction: column;
+  
+}
+.Video{
+  flex-direction: column-reverse;
+}
+.Footer_wrapper{
+  flex-direction: column;
+}
+.Footer_logo, .Footer_menu{
+  margin-bottom: 1rem;
+}
+.img_feature{
+  padding: 3rem;
+}
+.lineDiv_vertical{
+  text-align: center;
+  align-items: center;
+}
+.content_feature{
+  text-align: center;
+}
+
+.numberFeature{
+  top: 50px;
+}
+
+.positionLine{
+  left: 50%;
+  top: 55%;
+}
+.Features_features .content_feature{
+  margin-left: 0;
+  margin-top: 3rem;
+}
+.upperTeam, .bottomTeam{
+  align-items: center;
+}
+
+.content_feature h2, .Team_Name h2, .CaptionFarmer p {
+  font-size: 16px;
+}
+.content_feature p, .Team_Position h3, .CaptionText p {
+  font-size: 14px;
+}
+.verticalLine{
+  height: 75px;
+}
+.Team_Member_Container{
+  text-align: center;
+}
+.Video{
+  text-align: center;
+}
+.Video_Content{
+  margin: 0;
+}
+.Video_Video{
+  margin-bottom: 2rem;
+}
+
+.quoteDiv p{
+  font-size: 120px;
+}
+
+
+}
+  
 

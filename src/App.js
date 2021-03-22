@@ -10,6 +10,8 @@ import Contact from './views/Contact'
 import Footer from './views/Footer'
 import Menu from './views/Menu'
 
+
+
 function App() {
   return (
     <>
@@ -17,10 +19,10 @@ function App() {
     <Header />
     <About />
     <Features />
-    <Video />
-    <Stories />
     <Team />
+    <Video />
     <Contact />
+    <Stories />
     <Footer />
   </>
   );

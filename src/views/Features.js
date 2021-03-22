@@ -2,9 +2,9 @@ import React from 'react'
 
 function Features() {
     return (
-    <div className="Features">
+    <div className="Features" id="features">
         <div className="Features_Title">
-          <div>Our Features</div>
+          <div><h2>Our Features</h2></div>
           <div className="lineDiv_horizontal">
             <div className="lineDiv"></div>
           </div>
