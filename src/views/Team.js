@@ -1,4 +1,5 @@
 import React from 'react'
+import SlideshowTeam from './SlideshowTeam'
 
 function Team() {
     return (
@@ -10,7 +11,9 @@ function Team() {
           </div>
         </div>
         <div className="Team">
-        <div className="upperTeam">
+        
+          <SlideshowTeam />
+          <div className="upperTeam ClearClass">
         {/* Member 1 */}
         <div className="Team_Member_Container">
           <div className="Team_Profile_Pic"><img src="img/members/hooman.png" alt="Team Member Profile Image" /></div>
@@ -44,7 +47,7 @@ function Team() {
           <div className="Team_Social_Media"><i class="fab fa-linkedin"></i><i class="fab fa-github-square"></i></div>
           </div>
         </div>
-        <div className="bottomTeam">
+        <div className="bottomTeam ClearClass">
         {/* Member 5 */}
         <div className="Team_Member_Container">
           <div className="Team_Profile_Pic"><img src="img/members/gurvinder.png" alt="Team Member Profile Image" /></div>

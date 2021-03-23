@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactForm from './ContactForm'
 
 function Contacts() {
     return (
@@ -11,7 +12,8 @@ function Contacts() {
           </div>
         </div>
         <div className="Contacts">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdT3AYakjglxPQ7xHie7EwD_CsUsVubbtaxdBkYrt3h-epxzQ/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <h2>IF YOU HAVE ANY QUESTIONS PLEASE DO NOT HESITATE TO SEND US A MESSAGE</h2>
+         <ContactForm />
       </div>
     </div>
   );
