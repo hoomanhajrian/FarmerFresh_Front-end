@@ -5,6 +5,11 @@ body{
   font-weight: 400;
   margin: 0;
   padding: 0;
+ 
+}
+
+p{
+ line-height: 1.5rem;
 }
 
 img{
@@ -16,6 +21,8 @@ img{
   font-family: 'SafiarSignature';
   src: local('SafiarSignature'), url(./fonts/SafiarSignature.ttf) format('truetype');
 }
+
+@import "react-slideshow-image/dist/styles.css";
 
 
 // Body and Menu Settings .......................................
@@ -368,6 +375,11 @@ font-size: 60px;
 
 // Stories settings
 
+.Stories{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .Stories_Title{
    margin-left: 60%;
   display: flex;
@@ -383,81 +395,20 @@ font-size: 60px;
   margin: 0;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  // padding: 30%;
-  // position: relative;
+.each-slide{
+  // padding: 30rem;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+.each-slide img{
   // margin: auto;
 }
 
-.mySlides {
-  padding-left: 30%;
-  padding-right: 30%;
-  display: block;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.CaptionText, .CaptionFarmer{
-  width: 500px;
-
-
-}
-
-.CaptionText{
-  margin-top: 1rem;
-}
-
-.quoteDiv p{
-  text-align: center;
-  font-size: 150px;
-  font-family: Poppins;
-  color: #29600B;
-  margin: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-.textAlignCenter{
-  text-align: center;
-}
-
-.mySlides img{
-  max-width: 500px;
+.testimonialText{
+  font-weight: 600;
+  
 }
 
 // Footer Settings
@@ -602,9 +553,7 @@ display: flex;
 .Footer_logo, .Footer_menu{
   margin-bottom: 1rem;
 }
-.img_feature{
-  padding: 3rem;
-}
+
 .lineDiv_vertical{
   text-align: center;
   align-items: center;
@@ -663,10 +612,19 @@ display: flex;
   margin-left: 0;
 }
 
+.each-slide{
+  max-width: 20rem;
+}
+
+.Contacts h2{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 }
 
 @media only screen and (min-width: 900px) {
-  #HiddenMenu, #burguerButton{
+  #HiddenMenu, #burguerButton, #SlideshowTeam{
     clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
