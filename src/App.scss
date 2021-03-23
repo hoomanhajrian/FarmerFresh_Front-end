@@ -299,13 +299,14 @@ margin-right: 0.2rem;
   margin-right: 100px;
 }
 
-.Video_Content button{
+.Video_Content button, .contactForm button{
   background-color: #29600B;
   border: none;
   border-radius: 10px;
   padding: 1rem;
   color: white;
   font-family: Poppins;
+  max-width: 200px;
 }
 
 // Contact Us Settings
@@ -315,6 +316,39 @@ margin-right: 0.2rem;
   margin-left: 3rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Contacts h2{
+    color: #29600B;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 22rem;
+    margin-left: 22rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.contactForm{
+  width: 100%;
+}
+
+.contactForm form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactForm input, textarea{
+  width: 300px;
+  margin-bottom: 1rem;
+  // resize: none;
+    border: 3px solid #ccc;
+    border-radius: 0.2rem;
+
+}
+
+.contactForm input:focus, textarea:focus {
+  border: 3px solid #555;
 }
 
 .Contacts_Title{
@@ -489,6 +523,39 @@ display: flex;
     // background-color: lightblue;
   }
 
+#burguerButton{
+  border: none;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+   display: inline-block;
+   background-color: white;
+}
+
+#HiddenMenu {
+  width: 70vw;
+  height: 50vh;
+  background-color: white;
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform .3s
+              cubic-bezier(0, .52, 0, 1);
+  overflow: scroll;
+  z-index: 1000;
+}
+ 
+#HiddenMenu.hide {
+  transform: translate3d(-100vw, 0, 0);
+}
+ 
+#HiddenMenu.show {
+  transform: translate3d(0vw, 0, 0);
+  overflow: hidden;
+}
+  
   .ClearClass{
     clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -588,7 +655,26 @@ display: flex;
   font-size: 120px;
 }
 
+.Menu_container{
+  justify-content: space-between;
+}
 
+.Menu{
+  margin-left: 0;
+}
+
+}
+
+@media only screen and (min-width: 900px) {
+  #HiddenMenu, #burguerButton{
+    clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  }
 }
   
 
