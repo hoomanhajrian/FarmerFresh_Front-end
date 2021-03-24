@@ -24,6 +24,10 @@ img{
 
 @import "react-slideshow-image/dist/styles.css";
 
+.About, #team, #contactus{
+  background-color: #F4F9E6;
+}
+
 
 // Body and Menu Settings .......................................
 
@@ -40,7 +44,9 @@ img{
 .Menu_container{
  display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content: space-evenly;
+margin-top: 1rem;
+margin-bottom: 1rem;
 }
 
 .Menu_logo{
@@ -95,10 +101,19 @@ justify-content: space-around;
   align-items: center;
 }
 
+.header_social_media a{
+  text-decoration: none;
+  color: white;
+}
+
 // About Settings
 
-.About{
-  margin-top: 1rem;
+.About, .Features, #team, #contactus{
+  margin-top: 112px;
+}
+
+#team, #contactus{
+  margin-bottom: 112px;
 }
 
 .About_Title{
@@ -111,7 +126,7 @@ justify-content: space-around;
 }
 
 .About_Title h2{
-  font-size: 60px;
+  font-size: 5rem;
   font-weight: 300;
   font-family: SafiarSignature;
   margin: 0;
@@ -135,7 +150,7 @@ justify-content: space-around;
 }
 
 .verticalLine{
-  border-left: black solid 1px;
+  border-left: black solid 3px;
   height: 100px;
 }
 
@@ -152,12 +167,13 @@ justify-content: space-around;
 }
 
 .content_feature h2{
-  color: #29600B;
+  color: #7CA20A;
+  font-family: 'Open Sans', sans-serif;
 }
 
 // Features Settings
 .Features_features_block img{
-  max-width: 400px;
+  // max-width: 400px;
   // min-width: 100px
 }
 
@@ -171,7 +187,7 @@ justify-content: space-around;
 }
 
 .Features_Title h2{
-  font-size: 60px;
+  font-size: 5rem;
   font-weight: 300;
   font-family: SafiarSignature;
   margin: 0;
@@ -192,7 +208,7 @@ justify-content: space-around;
 
 .numberFeature{
   text-align: center;
-  color: #29600B;
+  color: #7CA20A;
   font-size: 60px;
   font-weight: bold;
   position: absolute;
@@ -222,7 +238,7 @@ justify-content: space-around;
 }
 
 .Team_Title h2{
-  font-size: 60px;
+  font-size: 5rem;
   font-weight: 300;
   font-family: SafiarSignature;
   margin: 0;
@@ -249,7 +265,8 @@ justify-content: space-around;
 }
 
 .Team_Name h2{
-  color: #29600B;
+  color: #7CA20A;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 600;
   margin: 0;
@@ -276,7 +293,8 @@ margin-right: 0.2rem;
 .Video{
   margin-left: 3rem;
   margin-right: 3rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
 }
@@ -289,31 +307,59 @@ margin-right: 0.2rem;
 }
 
 .Video_Title h2{
-   font-size: 60px;
+   font-size: 5rem;
   font-weight: 300;
   font-family: SafiarSignature;
   margin: 0;
 }
 
 .Video_Content h2{
-    color: #29600B;
+  text-align: right;
+    color: #7CA20A; 
+    font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 600;
   margin: 0;
 }
 
+.Video_Content p{
+  text-align: right;
+}
+
 .Video_Content {
-  margin-right: 100px;
+  margin-right: 1.5rem;
+  text-align: right;
+  grid-column: 0/1;
+}
+
+.Video_Video {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.Video_Video iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
 
 .Video_Content button, .contactForm button{
-  background-color: #29600B;
+  background-color: #7CA20A;
   border: none;
   border-radius: 10px;
   padding: 1rem;
   color: white;
   font-family: Poppins;
   max-width: 200px;
+}
+
+.Video_Video{
+  grid-column: 2/5;
 }
 
 // Contact Us Settings
@@ -367,7 +413,7 @@ margin-right: 0.2rem;
 }
 
 .Contacts_Title h2{
-font-size: 60px;
+font-size: 5rem;
   font-weight: 300;
   font-family: SafiarSignature;
   margin: 0;
@@ -389,7 +435,7 @@ font-size: 60px;
 }
 
 .Stories_Title h2{
-  font-size: 60px;
+  font-size: 5rem;
   font-weight: 300;
   font-family: SafiarSignature;
   margin: 0;
@@ -397,13 +443,14 @@ font-size: 60px;
 
 .each-slide{
   // padding: 30rem;
-  max-width: 500px;
+  max-width: 350px;
   text-align: center;
   margin: auto;
 }
 
 .each-slide img{
   // margin: auto;
+  border-radius: 50%;
 }
 
 .testimonialText{
@@ -421,32 +468,38 @@ font-size: 60px;
 }
 
 .Footer_wrapper{
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   display: flex;
   color: white;
   justify-content: space-between; 
-  padding: 3rem;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   align-items: center;
 }
 
 .Footer_logo img{
-  width: 280px;
+  width: 200px;
   
 }
 .Footer_menu{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .Footer_menu_menu{ 
 display: flex;
+text-align: center;
     
 }
 
 .Footer_menu_menu div{
-  margin-right: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .Footer_menu_menu a{
@@ -464,7 +517,8 @@ display: flex;
 
 .Footer_social_menu{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 1.5rem;
   }
 
 
@@ -521,7 +575,7 @@ display: flex;
   width: 40%;
 }
 .About_Title h2, .Features_Title h2, .Team_Title h2, .Video_Title h2, .Contacts_Title h2, .Stories_Title h2{
-  font-size: 40px;
+  font-size: 3rem;
 
 }
 
@@ -546,7 +600,16 @@ display: flex;
 }
 .Video{
   flex-direction: column-reverse;
+  margin-left: 0;
+  margin-right: 0;
 }
+
+.Video_Video{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
 .Footer_wrapper{
   flex-direction: column;
 }
@@ -591,13 +654,17 @@ display: flex;
   text-align: center;
 }
 .Video{
+  display: flex;
   text-align: center;
 }
 .Video_Content{
   margin: 0;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-align: center;
 }
 .Video_Video{
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
 }
 
 .quoteDiv p{

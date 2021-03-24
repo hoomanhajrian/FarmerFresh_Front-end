@@ -16,26 +16,26 @@ const SlideshowTestimonials = () => {
             <img src={slideImages[0]} />
 
             <p className="testimonialText">Farmerfresh helped us with a virtual spot to sell my locally grown organic produce to consumers direclty. Before that, I grow produce but the market has no place for local farmers. Farmerfresh give us an opportunity to survive.</p>
-            <p className="testimonialName">Farmer's Name 1</p>
+            <p className="testimonialName">Yu Yan</p>
             </div>
           
           <div className="each-slide">
              <img src={slideImages[1]} />
-              <p className="testimonialText">Farmerfresh helped us with a virtual spot to sell my locally grown organic produce to consumers direclty. Before that, I grow produce but the market has no place for local farmers. Farmerfresh give us an opportunity to survive.</p>
-            <p className="testimonialName">Farmer's Name 2</p>
+              <p className="testimonialText">I am a local farmer and grows seasonal vegetables.In-organic produce dominated the market like rumour that there is no place for organic produce.Although everybody is aware what we are eating and how these in-organic produce impacted our health.</p>
+            <p className="testimonialName">Sophie Jackson</p>
             </div>
           
           <div className="each-slide">
              <img src={slideImages[2]} />
-              <p className="testimonialText">Farmerfresh helped us with a virtual spot to sell my locally grown organic produce to consumers direclty. Before that, I grow produce but the market has no place for local farmers. Farmerfresh give us an opportunity to survive.</p>
-            <p className="testimonialName">Farmer's Name 3</p>
+              <p className="testimonialText">As a farmer,I live in the countryside.I grow oranges but transportation cost to sell these oranges is high.and whatever i earn is not enough for my all expenditures.With farmer fresh i can showcase my products virtually and control my stock effortlessly.</p>
+            <p className="testimonialName">Jacob Anderson</p>
           </div>
 
           
           <div className="each-slide">
              <img src={slideImages[3]} />
-              <p className="testimonialText">Farmerfresh helped us with a virtual spot to sell my locally grown organic produce to consumers direclty. Before that, I grow produce but the market has no place for local farmers. Farmerfresh give us an opportunity to survive.</p>
-            <p className="testimonialName">Farmer's Name 4</p>
+              <p className="testimonialText">A few consumers buy produce from my farms and it's always hard to control stock operations manually.A farmer fresh app gives us flexibility to control inventory operations and customize our own profile to look elegant.</p>
+            <p className="testimonialName">Peter Smith</p>
           </div>
           
           
