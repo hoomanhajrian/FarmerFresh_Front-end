@@ -20,21 +20,21 @@ const SlideshowTeam = () => {
 
                     <div className="Team_Name"><h2>Arshdeep Kaur</h2></div>
                     <div className="Team_Position"><h3>UI/UX Designer</h3></div>
-                     <div className="Team_Social_Media"><i class="fab fa-linkedin"></i><i class="fab fa-github-square"></i></div>
+                     <div className="Team_Social_Media"><i class="fab fa-linkedin"></i><i class="fab fa-behance-square"></i></div>
             </div>
           
           <div className="each-slide">
              <img src={slideImages[1]} />
             <div className="Team_Name"><h2>Gurvinder Singh</h2></div>
                     <div className="Team_Position"><h3>UI/UX Designer</h3></div>
-                     <div className="Team_Social_Media"><i class="fab fa-linkedin"></i><i class="fab fa-github-square"></i></div>
+                     <div className="Team_Social_Media"><i class="fab fa-linkedin"></i><i class="fab fa-behance-square"></i></div>
             </div>
           
           <div className="each-slide">
              <img src={slideImages[2]} />
               <div className="Team_Name"><h2>Harmeet Kaur</h2></div>
           <div className="Team_Position"><h3>Lead Designer</h3></div>
-          <div className="Team_Social_Media"><i class="fab fa-linkedin"></i><i class="fab fa-github-square"></i></div>
+          <div className="Team_Social_Media"><i class="fab fa-linkedin"></i><i class="fab fa-behance-square"></i></div>
           </div>
 
           
@@ -56,7 +56,7 @@ const SlideshowTeam = () => {
              <img src={slideImages[5]} />
                 <div className="Team_Name"><h2>Kulbir Singh</h2></div>
           <div className="Team_Position"><h3>UI/UX Designer</h3></div>
-          <div className="Team_Social_Media"><i class="fab fa-linkedin"></i><i class="fab fa-github-square"></i></div>
+          <div className="Team_Social_Media"><i class="fab fa-linkedin"></i><i class="fab fa-behance-square"></i></div>
                 </div>
                 
                 <div className="each-slide">

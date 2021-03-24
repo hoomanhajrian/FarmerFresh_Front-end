@@ -43,7 +43,7 @@ class Menu extends Component {
         </a>
         
           <a href="#menu">
-            <div className="Menu_logo"> <img src="img/logo.png" alt="FarmerFresh Logo" /></div>
+            <div className="Menu_logo"> <img src="img/logo.png" alt="FarmerFresh Logo" width="300px" height="100px"/></div>
           </a>
           <a href="#team">
             <div className="Menu_team ClearClass">Team</div>

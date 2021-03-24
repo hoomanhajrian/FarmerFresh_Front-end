@@ -30,9 +30,9 @@ function Footer() {
           <div className="Footer_social"><p>Follow us on:</p>
             <div className="Footer_social_menu">
               <i className="fab fa-pinterest-p"></i>
-              <i class="fab fa-snapchat-ghost"></i>
-              <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
+              <i className="fab fa-snapchat-ghost"></i>
+              <i className="fab fa-facebook-f"></i>
+                        <i className="fab fa-twitter"></i>
             </div></div>
         </div>
     </div>

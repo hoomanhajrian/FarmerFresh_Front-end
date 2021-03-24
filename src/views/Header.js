@@ -7,7 +7,10 @@ function Header() {
           <p>Browse what you are looking and feel satisfied. Download the app by clicking bellow:</p>
         <img src="img/google-play-badge.png" alt="google play button"/></div>
         
-        <div className="header_social_media ClearClass"><i className="fab fa-instagram"></i></div>
+        <div className="header_social_media ClearClass"> <a href="#"><i className="fab fa-pinterest-p"></i></a>
+              <a href="#"><i className="fab fa-snapchat-ghost"></i></a>
+              <a href="#"><i className="fab fa-facebook-f"></i></a>
+                        <a href="#"><i className="fab fa-twitter"></i></a></div>
     </div>
   );
 }
