@@ -21,7 +21,7 @@ function About() {
             <div class="img_feature"><img src="img/feature_2.png" alt /></div>
             <div className="lineDiv_vertical"><div className="verticalLine"></div></div>
             <div className="content_feature"><h2>Mission</h2>
-            <p>To estabilish a direct connection among local organic farmers and consumers to sell and buy the fresh produce respectively</p></div>
+            <p>To establish a direct connection among local organic farmers and consumers to sell and buy the fresh produce respectively.</p></div>
           </div>
           <div className="About_features_block">
             <div class="img_feature"><img src="img/feature_3.png" alt /></div>

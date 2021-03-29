@@ -69,6 +69,10 @@ margin-bottom: 1rem;
   position: relative;
 }
 
+.Header img{
+  margin-left: 1rem;
+}
+
 .site-header-text{
   position: absolute;
   top: 50%;
@@ -223,9 +227,7 @@ font-size: 0.8rem;
  align-items: center;
 }
 
-.About_features_block{
-  padding: 3rem;
-}
+
 
 .content_feature h2{
   color: #7CA20A;
@@ -290,6 +292,12 @@ font-size: 0.8rem;
 }
 
 // Team Settings
+
+
+.Team_Social_Media a{
+  text-decoration: none;
+  color: black;
+}
 
 .Team_Title{ 
   margin-left: 60%;
@@ -589,7 +597,10 @@ text-align: center;
     // background-color: lightblue;
   }
 
- 
+ #HiddenMenu h2{
+   margin-left: 1rem;
+   text-decoration: underline;
+ }
 
 #burguerButton{
   border: none;
@@ -751,6 +762,8 @@ text-align: center;
   margin-right: 3rem;
 }
 
+
+
 }
 
 @media only screen and (min-width: 900px) {
@@ -793,6 +806,10 @@ text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  .About_features_block{
+  padding: 3rem;
+}
 
   
 }
