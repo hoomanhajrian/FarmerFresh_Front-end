@@ -59,6 +59,10 @@ margin-bottom: 1rem;
   color: black;
 }
 
+.Menu a:hover{
+  color: #7CA20A;
+}
+
 // Header Settings
 
 .Header{
@@ -758,6 +762,7 @@ text-align: center;
 .Menu_container{
   justify-content: space-between;
 }
+
 
 .Menu{
   margin-left: 0;
