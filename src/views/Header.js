@@ -4,7 +4,7 @@ function Header() {
     return (
     <div className="Header" style={{ backgroundImage: "url(/img/bg_apple.png)" }}>
         <div className="site-header-text"><h1>A Fresh produce to your doorstep.</h1>
-          <p>Browse what you are looking and feel satisfied. Download the app by clicking bellow:</p>
+          <p>Browse what you are looking and feel satisfied. Download the app by clicking below:</p>
           <a href="files/FarmerFreshV2.6.apk" download="Farmerfresh_App"><img src="img/google-play-badge.png" alt="google play button" /></a></div>
       
         
