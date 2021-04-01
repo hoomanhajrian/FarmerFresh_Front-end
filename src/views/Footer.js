@@ -21,7 +21,7 @@ function Footer() {
               </a></div>
               <div>|</div>
             <div className="Menu_contact"><a href="#contactus">
-              Contact Us
+              Contact
               </a></div>
           
             </div>

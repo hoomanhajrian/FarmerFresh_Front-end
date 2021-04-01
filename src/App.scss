@@ -494,6 +494,12 @@ font-size: 5rem;
   margin: 0;
 }
 
+input, textarea{
+  font-family: Poppins;
+  font-size: 0.8rem;
+  padding: 0.8rem;
+}
+
 // Stories settings
 
 .Stories{
@@ -605,9 +611,7 @@ text-align: center;
 
   // MEDIA QUERIES FOR MOBILE
   @media only screen and (max-width: 900px) {
-  body {
-    // background-color: lightblue;
-  }
+  
 
  #HiddenMenu h2{
    margin-left: 1rem;
@@ -663,16 +667,31 @@ text-align: center;
   width: 40%;
 }
 .About_Title h2, .Features_Title h2, .Team_Title h2, .Video_Title h2, .Contacts_Title h2, .Stories_Title h2{
-  font-size: 3rem;
+  font-size: 2.9rem;
 
 }
 
+.lineDiv{
+  width: 50px;
+}
+
+.Contacts h2{
+  // font-size: 0.8rem;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 0.8rem;
+}
+
 .About_Title, .Features_Title, .Team_Title, .Video_Title, .Contacts_Title, .Stories_Title{
-    margin-left: 30%;
+    margin-left: 10%;
   }
 
   .About_features{
   flex-direction: column;
+}
+
+.Footer_menu_menu{
+  font-size: 0.8rem;
 }
 
 .Features_features{
@@ -772,12 +791,11 @@ text-align: center;
   max-width: 20rem;
 }
 
-.Contacts h2{
-  margin-left: 3rem;
-  margin-right: 3rem;
+
+
+.Video_Content h2, .Video_Content p{
+  text-align: center;
 }
-
-
 
 }
 
