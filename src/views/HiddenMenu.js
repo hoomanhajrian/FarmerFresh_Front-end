@@ -15,7 +15,7 @@ class HiddenMenu extends Component {
         className={visibility}
 
       >
-        <h2><a className="menu_icon" onClick={this.props.handleMouseDown}><img src="./img/Icon metro-cross.png" /></a></h2>
+        <a className="menu_icon" onClick={this.props.handleMouseDown}><img src="./img/Icon metro-cross.png" /></a>
         <h2><a href="#about">About</a></h2>
         <h2><a href="#features">Features</a></h2>
         <h2><a href="#team">Team</a></h2>

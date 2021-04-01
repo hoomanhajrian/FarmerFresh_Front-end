@@ -50,7 +50,6 @@ img{
  background-color: white;
  margin-left: 5rem;
  margin-right: 5rem;
- 
 }
 
 .Menu_container{
@@ -551,8 +550,10 @@ input, textarea{
 .menu_icon{
   max-width: 20px;
   max-height: 20px;
+  margin-left: 1rem;
   margin-bottom: 3rem;
 }
+
 
 .testimonialText{
   font-weight: 600;
@@ -629,7 +630,7 @@ text-align: center;
 
  #HiddenMenu h2{
    margin-left: 1rem;
-   text-decoration: underline;
+   border-bottom: 1px solid black;
  }
 
 #burguerButton{
@@ -639,6 +640,8 @@ text-align: center;
   text-decoration: none;
    display: inline-block;
    background-color: white;
+   margin: 1rem;
+
 }
 
 #HiddenMenu {
