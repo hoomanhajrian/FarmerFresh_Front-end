@@ -124,11 +124,16 @@ margin-bottom: 1rem;
 
 // About Settings
 
-.About, .Features, #contactus{
-  margin-top: 112px;
+.About {
+  padding-top: 112px;
+  
 }
 
-#team, #contactus{
+#team, #contactus, .About_features {
+padding-bottom: 112px;
+}
+
+.videoContainer{
   margin-bottom: 112px;
 }
 
@@ -840,6 +845,8 @@ text-align: center;
   .About_features_block{
   padding: 3rem;
 }
+
+
 
   
 }
