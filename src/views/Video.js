@@ -3,7 +3,7 @@ import React from 'react'
 function Video() {
   return (
       
-    <div>
+    <div className="videoContainer">
       <div className="Video_Title">
           <div><h2>Our Work</h2></div>
           <div className="lineDiv_horizontal">
