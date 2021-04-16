@@ -14,7 +14,9 @@ npm start
 ```
 
 ## Contributing
+
 Juan Santos
+
 Hooman Hajarian
 
 ## License
