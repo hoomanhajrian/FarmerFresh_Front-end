@@ -2,10 +2,10 @@ Foobar is a Python library for dealing with word pluralization.
 
 ## Installation
 
-Use the package manager [NPM](https://nodejs.org/en/) to install.
-
+install Node Package Manager [NPM](https://nodejs.org/en/) for installing furthur packages.
+This app has been built using [React.js](https://reactjs.org/) using the code below: 
 ```bash
-pip install foobar
+npx create react-app [your app name]
 ```
 
 ## Usage
