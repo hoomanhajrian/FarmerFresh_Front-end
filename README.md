@@ -9,18 +9,14 @@ npx create react-app [your app name]
 ```
 
 ## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+Run the application using node script(also runable through yarn)
+```bash
+yarn start
+npm start
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Juan Santos
+Hooman Hajarian
 
 ## License
